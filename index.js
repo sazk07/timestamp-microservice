@@ -6,7 +6,15 @@ const thisdate = new Date()
 const utcVar = thisdate.toUTCString()
 const unixVar = Date.now()
 console.log(unixVar)
-app.get("/", (req, res) => {
+
+app.get("/api/2023-05-20", (req, res) => {
+  res.send({
+    unix: unixVar,
+    utc: utcVar
+  })
+})
+
+app.get("/api/1684603518875", (req, res) => {
   res.send({
     unix: unixVar,
     utc: utcVar
