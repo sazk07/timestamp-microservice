@@ -1,0 +1,29 @@
+{
+  "name": "timestamp_microservice",
+  "version": "1.0.0",
+  "description": "timestamp microservice api for freeCodeCamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint",
+    "start": "nodemon index.js",
+    "devstart": "nodemon index.js",
+    "serverstart": "DEBUG=timestamp_microservice:* npm run devstart"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sazk07/fcc-timestamp-microservice.git"
+  },
+  "author": "Shahan Arshad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sazk07/fcc-timestamp-microservice/issues"
+  },
+  "homepage": "https://github.com/sazk07/fcc-timestamp-microservice#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.41.0"
+  }
+}
