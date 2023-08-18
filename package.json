@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sazk07/fcc-timestamp-microservice.git"
+    "url": "git+https://github.com/sazk07/timestamp-microservice.git"
   },
   "author": "Shahan Arshad",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sazk07/fcc-timestamp-microservice/issues"
+    "url": "https://github.com/sazk07/timestamp-microservice/issues"
   },
-  "homepage": "https://github.com/sazk07/fcc-timestamp-microservice#readme",
+  "homepage": "https://github.com/sazk07/timestamp-microservice#readme",
   "dependencies": {
     "express": "^4.18.2"
   },
